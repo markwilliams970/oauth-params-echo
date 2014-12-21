@@ -1,9 +1,5 @@
 require 'sinatra'
-require 'rest_client'
-
 require 'net/http'
-require 'securerandom'
-require 'json'
 
 RestClient.log = $stdout
 
