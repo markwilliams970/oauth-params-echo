@@ -14,8 +14,15 @@
 
 <body>
 <p>
-        <h1>Your OAuth Params Are:</h1>
-        <pre><%= code %></pre>
+        <h1>Your OAuth Re-direct Params Are:</h1>
+
+        <% @params.each do | param_key, param_value| %>              	
+            <p>
+            <h2><%= param_key %>:</h2>
+        	<pre><%= param_value %></pre>
+        	</p>
+    	</div>
+		<% end %> 
         	
         <br />
         <a href="/">Index</a></p>

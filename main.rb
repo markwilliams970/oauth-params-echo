@@ -5,7 +5,7 @@ enable :sessions
 
 get '/oauth-redirect' do
 	oauth_code = params[:code]
-	erb :oauth_redirect, :locals => { :code => oauth_code }
+	erb :oauth_redirect, :locals => { :params => params }
 end
 
 

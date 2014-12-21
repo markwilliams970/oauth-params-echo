@@ -1,7 +1,7 @@
 oauth-code-echo
 ===============
 
-A Ruby sinatra app that provides an /oauth-redirect endpoint that will simply echo back to the user, any value contained in the 'code' parameter of the URL. I.E. hitting this endpoint:
+A Ruby sinatra app that provides an /oauth-redirect endpoint that will simply echo back to the user, any parameter values contained the URL. I.E. hitting this endpoint:
 
 http://localhost:4567/oauth-redirect?code=f3e56b4c2
 
