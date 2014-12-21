@@ -1,8 +1,6 @@
 require 'sinatra'
 require 'net/http'
 
-RestClient.log = $stdout
-
 enable :sessions
 
 get '/oauth-redirect' do
